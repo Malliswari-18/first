@@ -1,32 +1,60 @@
-The Indian Premier League (IPL) is India’s premier professional Twenty20 (T20) cricket league, founded in 2008 by the Board of Control for Cricket in India (BCCI). It features ten city-based franchises competing annually in one of the world’s most lucrative and widely followed cricket tournaments.
+**IPL Analysis Project**
 
-The IPL has revolutionized global cricket through its mix of sport, entertainment, and commerce, attracting international stars, record sponsorships, and massive audiences across digital and television platforms.
+**Project Overview**
+This project performs end-to-end data analysis on IPL (Indian Premier League) data using Python, SQL, and data visualization libraries.
 
-Key Facts
-Founded: 2008 by BCCI
+The objective is to extract meaningful insights from match-level, player-level, and ball-by-ball data and present them through analytical dashboards.
 
-Format: Twenty20, round-robin and playoffs
+**Datasets Used**
+The project uses the following datasets:
 
-Teams (2025): 10
+* matches.csv – Match-level details (season, teams, venue, winner, etc.)
+* deliveries.csv – Ball-by-ball data (runs, wickets, overs, balls)
+* players.csv – Player-level information
+* sqll.sql – Database schema for MySQL
+  
+**Tech Stack**
+* Python
+* Pandas
+* NumPy
+* MySQL
+* SQLAlchemy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+  
+**ETL Workflow**
+1. Raw CSV files loaded using Pandas
+2. Data cleaning & preprocessing
+    - Removing duplicates
+    - Handling null values
+    - Standardizing columns
+3. Data loaded into MySQL database
+4. SQL queries used for analytics
+5. Visualizations created using Matplotlib & Seaborn
 
-Season window: March–May each year
+**Dashboards & Analysis**
 
-Current champions (2024): Kolkata Knight Riders
+**Dashboard 1**: Team Performance
+* Total runs scored by each team
+* Total wickets taken by each team
+* Team-wise performance comparison
 
-Most titles: Chennai Super Kings and Mumbai Indians (five each)
+ **Dashboard 2**: Match Insights
+* Average runs per match
+* Matches with No Result
+* Home vs Away performance
 
-Structure and Format
-The league operates on a double round-robin group stage followed by playoffs. Each team plays home-and-away matches during the league phase, earning points toward qualification for the top four playoff spots. The postseason comprises two qualifiers, an eliminator, and a final, determining the season champion.
+**Dashboard 3**: Player & Ball Analytics
+* Runs distribution per match
+* Wickets per match
+* High-scoring matches analysis
+  
+**Dashboard 4**: Business KPIs
+* Top teams by win percentage
+* Match outcome predictability
+* Impact of venue on results
 
-5
-Franchises and Venues
-The ten franchises represent major Indian cities: Chennai Super Kings, Delhi Capitals, Gujarat Titans, Kolkata Knight Riders, Lucknow Super Giants, Mumbai Indians, Punjab Kings, Rajasthan Royals, Royal Challengers Bengaluru, and Sunrisers Hyderabad. Matches are hosted across multiple iconic venues, including Eden Gardens (Kolkata), M. A. Chidambaram Stadium (Chennai), and Narendra Modi Stadium (Ahmedabad).
+ 
 
-Economic and Cultural Impact
-Valued at over $10 billion, the IPL ranks among the world’s richest sporting leagues. It has redefined cricket’s economics through franchise ownership models, player auctions, and broadcasting rights deals. Beyond revenue, the league has served as a platform for emerging Indian talent and global cricket exchange.
-
-Broadcasting and Global Reach
-Televised by Star Sports and streamed via JioCinema, IPL matches reach hundreds of millions of viewers across multiple languages. Its blend of high-intensity sport, celebrity involvement, and fan engagement continues to expand cricket’s global popularity.
-
-Recent Developments
-The 2025 season runs from March 22 to May 25 across 13 Indian cities. Brand valuations and player purses continue to grow, with innovations such as the “impact player” rule and expanded retention limits designed to sustain competitive balance and audience interest. 
+ 
